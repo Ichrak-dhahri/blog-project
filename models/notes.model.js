@@ -7,4 +7,5 @@ const noteSchema= mongoose.Schema({
 
 });
 
- export const userModel= mongoose.model('note ', noteSchema)
+ const noteModel= mongoose.model('note ', noteSchema)
+ export {noteModel} 
